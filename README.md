@@ -56,14 +56,20 @@ Contains demographic, financial, and behavioral customer data including:
 - Risk category vs churn
 
 ## Key Insights
-
+- Customers in Germany showed a higher churn rate compared to other countries.
+- Inactive members were significantly more likely to churn.
+- Customers with high balances and low credit scores were frequently in the high-risk churn group.
 
 ## What I Learned
 - Data cleaning workflows
-- Feature engineering
-- Customer segmentation
+- Feature engineering with NumPy
+- Creating meaningful customer segments
 - Filtering and boolean indexing
-- Data visualization
+- Data visualization using matplotlib
 - Project structuring
 - Version control with Git
 - GitHub project management
+
+## Future Improvements
+- Add machine learning churn prediction model
+- build an interactive dashboard with Tableau or Power BI
