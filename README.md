@@ -56,19 +56,10 @@ Contains demographic, financial, and behavioral customer data including:
 - Risk category vs churn
 
 ## Key Insights
-- Customers in Germany showed a higher churn rate compared to other countries.
+- Overall churn rate was 20.4% which roughly 1 in 5 Customers left.
+- Customers in Germany had a churn rate of 32.4% which was almost double Spain (16.7%) and France (16.2%).
 - Inactive members were significantly more likely to churn.
 - Customers with high balances and low credit scores were frequently in the high-risk churn group.
-
-## What I Learned
-- Data cleaning workflows
-- Feature engineering with NumPy
-- Creating meaningful customer segments
-- Filtering and boolean indexing
-- Data visualization using matplotlib
-- Project structuring
-- Version control with Git
-- GitHub project management
 
 ## Future Improvements
 - Add machine learning churn prediction model
