@@ -29,11 +29,10 @@ def create_balance_category(df):
 
 def create_risk_level(df):
     df['RiskLevel'] = np.where(
-        (df['CreditScore'] < 600) & (
-            df['IsActiveMember'] == 0) & (df['Balance'] > 100000),
+        (df['CreditScore'] < 600) | (df['IsActiveMember'] == 0) | (df['Balance'] < 100000),
         'High Risk',
         np.where(
-            (df['CreditScore'] < 700) | (df['IsActiveMember'] == 0),
+            (df['CreditScore'] >= 600) & (df['CreditScore'] <= 700),
             'Medium Risk',
             'Low Risk'
         )
